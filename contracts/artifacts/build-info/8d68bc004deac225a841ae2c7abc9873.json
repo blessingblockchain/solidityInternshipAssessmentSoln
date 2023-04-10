@@ -1,0 +1,70 @@
+{
+	"id": "8d68bc004deac225a841ae2c7abc9873",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.4.23",
+	"solcLongVersion": "0.4.23+commit.124ca40d",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/Bless.ethToken.sol": {
+				"content": ""
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {},
+		"errors": [
+			{
+				"component": "general",
+				"formattedMessage": "contracts/Bless.ethToken.sol:1:1: Warning: Source file does not specify required compiler version!Consider adding \"pragma solidity ^0.4.23;\"\n\n^\n",
+				"message": "Source file does not specify required compiler version!Consider adding \"pragma solidity ^0.4.23;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": 0,
+					"file": "contracts/Bless.ethToken.sol",
+					"start": 0
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"contracts/Bless.ethToken.sol": {
+				"ast": {
+					"absolutePath": "contracts/Bless.ethToken.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "0:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
